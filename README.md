@@ -35,3 +35,4 @@
 - Breakpoint tests - https://grafana.com/blog/2024/01/30/breakpoint-testing/
 - Soak tests - https://grafana.com/blog/2024/01/30/soak-testing/
 - Geting an k6 cloud API token - https://{k6_username}.grafana.net/a/k6-app/settings/api-token
+- Mock APIs - https://designer.mocky.io/
