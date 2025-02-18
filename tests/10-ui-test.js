@@ -20,7 +20,7 @@ export default async function () {
 		await page.locator('input[type=submit]').click();
 		await page.waitForNavigation();
 
-		await page.screenshot({ path: 'screenshots/2-authenticated.png' });
+		await page.screenshot({ path: 'screenshots/1-authenticated.png' });
 
 		await check(page.locator('h2'), {
 			loggedInHeader: async (locator) => (await locator.textContent()) == 'Welcome, admin!'
@@ -29,6 +29,3 @@ export default async function () {
 		await page.close();
 	}
 }
-
-// k6 run tests/browser.js
-// K6_BROWSER_HEADLESS=false k6 run tests/browser.js

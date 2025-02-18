@@ -1,5 +1,5 @@
 {
-  "name": "k6-cop-demo",
+  "name": "k6-demo-project",
   "version": "1.0.0",
   "description": "K6 Demo for Test CoP",
   "main": "index.js",
@@ -11,5 +11,22 @@
   "dependencies": {
     "k6": "^0.0.0",
     "prettier": "^3.5.1"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradleyreaney/k6-demo-project.git"
+  },
+  "keywords": [
+    "k6",
+    "demo",
+    "project"
+  ],
+  "bugs": {
+    "url": "https://github.com/bradleyreaney/k6-demo-project/issues"
+  },
+  "homepage": "https://github.com/bradleyreaney/k6-demo-project#readme"
 }

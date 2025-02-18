@@ -28,10 +28,10 @@
 
 ### Useful links
 
-Smoke tests - https://grafana.com/blog/2024/01/30/smoke-testing/
-Stress tests - https://grafana.com/blog/2024/01/30/stress-testing/
-Load tests - https://grafana.com/blog/2024/01/30/average-load-testing/
-Spike tests - https://grafana.com/blog/2024/01/30/spike-testing/
-Breakpoint tests - https://grafana.com/blog/2024/01/30/breakpoint-testing/
-Soak tests - https://grafana.com/blog/2024/01/30/soak-testing/
-Geting an k6 cloud API token - https://{k6_username}.grafana.net/a/k6-app/settings/api-token
+- Smoke tests - https://grafana.com/blog/2024/01/30/smoke-testing/
+- Stress tests - https://grafana.com/blog/2024/01/30/stress-testing/
+- Load tests - https://grafana.com/blog/2024/01/30/average-load-testing/
+- Spike tests - https://grafana.com/blog/2024/01/30/spike-testing/
+- Breakpoint tests - https://grafana.com/blog/2024/01/30/breakpoint-testing/
+- Soak tests - https://grafana.com/blog/2024/01/30/soak-testing/
+- Geting an k6 cloud API token - https://{k6_username}.grafana.net/a/k6-app/settings/api-token
