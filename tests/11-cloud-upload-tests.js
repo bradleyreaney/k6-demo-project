@@ -1,7 +1,7 @@
 import http from 'k6/http';
 import { sleep, group } from 'k6';
 
-export const options = { vus: 2, duration: '10s', cloud: { projectID: 3748384 } };
+export const options = { vus: 2, duration: '10s', cloud: { projectID: /*ADD ME*/ } };
 
 export default function () {
 	group('Main page', () => {
