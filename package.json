@@ -1,0 +1,15 @@
+{
+  "name": "k6-cop-demo",
+  "version": "1.0.0",
+  "description": "K6 Demo for Test CoP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brad Reaney",
+  "license": "ISC",
+  "dependencies": {
+    "k6": "^0.0.0",
+    "prettier": "^3.5.1"
+  }
+}
