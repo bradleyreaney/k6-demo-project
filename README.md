@@ -17,14 +17,15 @@
 - Setting options in the CLI (long form) - `k6 run {script_name} --vus 2 --duration 11s --iterations 2`
 - Setting options in the CLI (short form) - `k6 run {script_name} -u 2 -d 11s -i 2`
 - Ignore insecure certs - `k6 run {script_name} --insecure-skip-tls-verify`
-- Run browser tests with headless set to false = `K6_BROWSER_HEADLESS=false k6 run {script_name}`
+- Run browser tests with headless set to false - `K6_BROWSER_HEADLESS=false k6 run {script_name}`
 
 ### Cloud testing
 
 - Logging into k6 cloud with UN & PW - `k6 cloud login` (promt for UN and PW will follow)
 - Logging into k6 cloud with token - `k6 cloud login --token {api_token}`
+- Setting a k6 cloud token in the CLI - `K6_CLOUD_TOKEN=$TOKEN k6 cloud {script_name}`
 - Upload script to k6 cloud to run there - `k6 cloud {script_name}`
-- Running script locally then uploading results to k6 cloud - `k6 run {script_name} -o cloud`
+- Running script locally then uploading results to k6 cloud - `k6 run {script_name} -o cloud` or `k6 cloud run --local-execution {script_name}`
 
 ### Useful links
 
@@ -36,3 +37,5 @@
 - Soak tests - https://grafana.com/blog/2024/01/30/soak-testing/
 - Geting an k6 cloud API token - https://{k6_username}.grafana.net/a/k6-app/settings/api-token
 - Mock APIs - https://designer.mocky.io/
+- K6 distributed tests - https://grafana.com/docs/k6/latest/testing-guides/running-distributed-tests/
+- K6 usage collection - https://grafana.com/docs/k6/latest/set-up/usage-collection/
